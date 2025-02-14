@@ -1,0 +1,13 @@
+﻿int num1, num2, result1, result2, result3, result4;
+Console.WriteLine("Ingrese el primer número");
+num1 = int.Parse(Console.ReadLine());
+Console.WriteLine("Ingrese el segundo número");
+num2 = int.Parse(Console.ReadLine());
+result1 = num1 + num2;
+result2 = num1 - num2;
+result3 = num1 * num2;
+result4 = num1 / num2;
+Console.WriteLine("La suma de los números es: " + result1);
+Console.WriteLine("La resta de los números es: " + result2);
+Console.WriteLine("La multiplicación de los números es: " + result3);
+Console.WriteLine("La división de los números es: " + result4);
